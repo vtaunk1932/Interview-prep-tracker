@@ -62,8 +62,7 @@ interview-prep-tracker-backend/
 
 
 
-📬 Contact
-Lavanya Sri Chava
+📬 Contact Vasu Taunk
 🔗 GitHub: vtaunk1932
 📫 Email: vasutaunk1932@gmail.com
 
