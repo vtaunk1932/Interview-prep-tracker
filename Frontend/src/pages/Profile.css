@@ -1,0 +1,60 @@
+.profile-container {
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-box {
+  background-color: #d4b3ca;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(99, 144, 135, 0.1);
+}
+
+.profile-field {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.profile-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+.profile-field p,
+.profile-field input {
+  font-size: 16px;
+  color: #222;
+  width: 100%;
+}
+
+.profile-field input {
+  padding: 8px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.edit-btn,
+.save-btn {
+  padding: 10px 20px;
+  border: none;
+  background-color: #0077cc;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.edit-btn:hover,
+.save-btn:hover {
+  background-color: #005fa3;
+}
+.error-text {
+  color: red;
+  font-size: 13px;
+  margin-top: 5px;
+}

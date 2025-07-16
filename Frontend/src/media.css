@@ -1,0 +1,11 @@
+/* media.css */
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  h2, h3 {
+    text-align: center;
+  }
+}

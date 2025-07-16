@@ -1,0 +1,145 @@
+.topic-card {
+  background: #ffffff;
+  border-left: 4px solid #4a90e2;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-2px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0;
+}
+
+.star-icon {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: #ccc;
+  transition: color 0.3s ease;
+}
+
+.star-icon.favorited {
+  color: gold;
+}
+
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.6rem 0;
+}
+
+.tag {
+  padding: 0.3rem 0.7rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: white;
+}
+
+.tag.category {
+  background-color: #444;
+}
+
+.tag.difficulty.easy {
+  background-color: #28a745;
+  color:white;
+}
+.tag.difficulty.medium {
+  background-color: #ffc107;
+  color:white;
+}
+.tag.difficulty.hard {
+  background-color: #dc3545;
+  color:white;
+}
+
+.status-select {
+  margin: 0.5rem 0;
+}
+
+.status-select select {
+  padding: 0.4rem 0.8rem;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  border: 1px solid #ccc;
+  color: white;
+  font-weight: 500;
+}
+
+.status-select select.not-started {
+  background-color: #6c757d;
+}
+
+.status-select select.in-progress {
+  background-color: #007bff;
+}
+
+.status-select select.completed {
+  background-color: #28a745;
+}
+
+.notes-section {
+  margin-top: 0.6rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.notes-section textarea {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  background-color: #f9f9f9;
+  resize: vertical;
+  font-family: inherit;
+}
+.icon-group {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.bookmark-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+
+.bookmarked {
+  color: teal;
+}
+.card-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.bookmark-icon {
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: gray;
+  transition: color 0.3s;
+}
+
+.bookmark-icon.bookmarked {
+  color: #ff9800;
+}
+.delete-icon {
+  cursor: pointer;
+  margin-left: 8px;
+  color: red;
+}

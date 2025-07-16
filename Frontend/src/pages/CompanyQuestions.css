@@ -1,0 +1,187 @@
+/* General container */
+.company-questions {
+  padding: 20px;
+  background-color: #f7f7f7;
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Header and filters */
+.company-questions h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 24px;
+}
+
+.filters {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filters input,
+.filters select {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 200px;
+}
+
+/* Add form */
+.add-form {
+  margin: 20px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 600px;
+  margin-inline: auto;
+  background: #fff;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.add-form input,
+.add-form select,
+.add-form button {
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-form button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.add-form button:hover {
+  background-color: #0056b3;
+}
+
+/* Question list */
+.question-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+.question-list li {
+  background: #f0f7ff; /* base white background */
+  border: 2px solid #090909;
+  padding: 14px 18px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.question-list li:hover {
+  background: #a2bcd9; /* subtle light blue on hover */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.question-list li.completed {
+  background-color: #e1fbe1;
+  text-decoration: line-through;
+}
+
+/* Inner layout for questions */
+.question-list li > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+/* Difficulty badge */
+.difficulty {
+  font-size: 0.9em;
+  margin-left: 10px;
+}
+
+.difficulty.easy {
+  color: green;
+}
+
+.difficulty.medium {
+  color: orange;
+}
+
+.difficulty.hard {
+  color: red;
+}
+
+/* Buttons */
+.question-list button {
+  padding: 6px 10px;
+  font-size: 13px;
+  border: none;
+  border-radius: 5px;
+  background-color: #eee;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  margin-right: 6px;
+}
+
+.question-list button:hover {
+  background-color: #ddd;
+}
+
+.toggle-btn {
+  margin-left: 8px;
+  font-size: 12px;
+  background-color: transparent;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.toggle-btn:hover {
+  text-decoration: underline;
+}
+
+/* Edit form inside a list item */
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 6px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.edit-form button {
+  font-size: 13px;
+  padding: 6px 10px;
+  border-radius: 5px;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin-right: 8px;
+}
+
+.edit-form button:last-child {
+  background-color: #dc3545;
+}
+
+.edit-form button:hover {
+  opacity: 0.9;
+}
