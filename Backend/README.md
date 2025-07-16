@@ -6,7 +6,7 @@ This is the **Spring Boot** backend service for the Interview Prep Tracker proje
 
 ## 🔗 Related Repositories
 
-- 🖥️ **Frontend (React + TypeScript)**: [interview-prep-tracker](https://github.com/LavanyaSriChava/interview-prep-tracker)
+- 🖥️ **Frontend (React + TypeScript)**: [interview-prep-tracker](https://github.com/vtaunk1932/Interview-prep-tracker)
 
 ---
 
@@ -31,7 +31,7 @@ This is the **Spring Boot** backend service for the Interview Prep Tracker proje
 |--------------|-------------------|
 | Language     | Java 17           |
 | Framework    | Spring Boot 3     |
-| DB           | PostgreSQL        |
+| DB           | MySql      |
 | ORM          | Spring Data JPA   |
 | Build Tool   | Maven             |
 | Dev Tools    | Spring Boot DevTools |
@@ -64,8 +64,8 @@ interview-prep-tracker-backend/
 
 📬 Contact
 Lavanya Sri Chava
-🔗 GitHub: LavanyaSriChava
-📫 Email: lavanya.chava728@gmail.com 
+🔗 GitHub: vtaunk1932
+📫 Email: vasutaunk1932@gmail.com
 
 ⭐ Star This Project
 If you found this backend useful for your learning or portfolio, consider giving it a ⭐ on GitHub!
