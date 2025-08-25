@@ -24,7 +24,7 @@ A **full-stack web application** to organize, track, and visualize your technica
 
 🎯 Add your own topics dynamically
 
-🌐 Persistent backend using Spring Boot and PostgreSQL
+🌐 Persistent backend using Spring Boot and MySQL
 
 📝 AI Resume Builder (NEW!)
 
