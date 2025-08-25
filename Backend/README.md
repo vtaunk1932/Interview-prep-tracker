@@ -21,8 +21,6 @@ This is the **Spring Boot** backend service for the Interview Prep Tracker proje
   - Company-wise progress (Progress bars)
 - 🧠 Supports both default and user-added questions
 - 🔐 CORS configured for cross-origin requests from frontend
-- 🔄 Docker & PostgreSQL compatible setup
-
 ---
 
 ## 🧰 Tech Stack
