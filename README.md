@@ -6,8 +6,8 @@ A **full-stack web application** to organize, track, and visualize your technica
 
 ## 🔗 Project Repositories
 
-- 🖥️ **Frontend (React + TypeScript)**: [interview-prep-tracker](https://github.com/LavanyaSriChava/interview-prep-tracker)
-- 🔧 **Backend (Spring Boot + PostgreSQL)**: [interview-prep-tracker-backend](https://github.com/LavanyaSriChava/interview-prep-tracker-backend)
+- 🖥️ **Frontend (React)**: [interview-prep-tracker](https://github.com/LavanyaSriChava/interview-prep-tracker)
+- 🔧 **Backend (Spring Boot + MySQL)**: [interview-prep-tracker-backend](https://github.com/LavanyaSriChava/interview-prep-tracker-backend)
 
 ---
 
