@@ -77,7 +77,7 @@ A **full-stack web application** to organize, track, and visualize your technica
 
 
 📬 Contact
-Lavanya Chava
+Vasu Taunk
 🔗 GitHub: vtaunk1932
 📫 Email: vasutaunk1932@gmail.com 
 
